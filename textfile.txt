@@ -1,0 +1,37 @@
+<li class="slide">
+ <div class="image_and_description_container">
+  <a href="/news/8794/independent-review-indicates-nasa-prepared-for-mars-sample-return-campaign/" target="_self">
+   <div class="rollover_description">
+    <div class="rollover_description_inner">
+     NASA released an independent review report Tuesday indicating the agency is well positioned for its Mars Sample Return campaign to bring pristine samples from Mars to Earth for scientific study.
+    </div>
+    <div class="overlay_arrow">
+     <img alt="More" src="/assets/overlay-arrow.png"/>
+    </div>
+   </div>
+   <div class="list_image">
+    <img alt="illustration of a concept of how the NASA Mars Ascent Vehicle could launch from Mars" src="/system/news_items/list_view_images/8794_PIA23496-320.jpg"/>
+   </div>
+   <div class="bottom_gradient">
+    <div>
+     <h3>
+      Independent Review Indicates NASA Prepared for Mars Sample Return Campaign
+     </h3>
+    </div>
+   </div>
+  </a>
+  <div class="list_text">
+   <div class="list_date">
+    November 10, 2020
+   </div>
+   <div class="content_title">
+    <a href="/news/8794/independent-review-indicates-nasa-prepared-for-mars-sample-return-campaign/" target="_self">
+     Independent Review Indicates NASA Prepared for Mars Sample Return Campaign
+    </a>
+   </div>
+   <div class="article_teaser_body">
+    NASA released an independent review report Tuesday indicating the agency is well positioned for its Mars Sample Return campaign to bring pristine samples from Mars to Earth for scientific study.
+   </div>
+  </div>
+ </div>
+</li>
