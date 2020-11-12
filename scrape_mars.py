@@ -55,14 +55,14 @@ def scrape():
     # Mars facts
     # try: 
     url = 'https://space-facts.com/mars/'
-
-    df = pd.read_html(url)[0]
+    browser.visit(url)
+    table = pd.read_html(url)
     # except BaseException:
     #     return None
 
-    # df = table[0]
+    df = table[0]
     df.columns = ['Mars Facts', 'Value']
-    df =  df.set_index('Mars Facts', inplace=True)
+    df.set_index('Mars Facts', inplace=True)
     # df = df.to_html()
 
     # Mars Hemispheres
@@ -102,7 +102,7 @@ def scrape():
     marspage["news_title"] = news_title
     marspage["news_p"] = news_p
     marspage["featured_image_url"] = featured_image_url
-    marspage["marsfacts_html"] = df
+    marspage["marsfacts_html"] = df.to_html() 
     marspage["hemisphere_image_urls"] = hemisphere_image_urls
 
     return marspage
